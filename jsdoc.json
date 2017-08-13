@@ -1,0 +1,376 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheDate instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheDate",
+                "description": ""
+            }
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheDate instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheDate",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "TheDate",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheDate",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "dateAfter",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateAfter",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "TheDate",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheDate",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "dateAfter",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateAfter",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "new Date()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
