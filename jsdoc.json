@@ -59,6 +59,60 @@
             },
             "functions": [
                 {
+                    "name": "hours",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get hours in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Days",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "dateAfter",
                     "access": "",
                     "virtual": false,
@@ -84,7 +138,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
@@ -121,11 +175,65 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
                     ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "hours",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get hours in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Days",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
                     "examples": [],
                     "returns": {
                         "type": "Date",
@@ -158,7 +266,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
@@ -195,7 +303,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
@@ -223,6 +331,60 @@
             },
             "functions": [
                 {
+                    "name": "hours",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get hours in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Days",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "dateAfter",
                     "access": "",
                     "virtual": false,
@@ -248,7 +410,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
@@ -285,11 +447,65 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
                     ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "hours",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get hours in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Days",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
                     "examples": [],
                     "returns": {
                         "type": "Date",
@@ -322,7 +538,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
@@ -359,7 +575,7 @@
                             "name": "options.from",
                             "type": "Date",
                             "description": "Base date",
-                            "default": "new Date()",
+                            "default": "now()",
                             "optional": true,
                             "nullable": ""
                         }
