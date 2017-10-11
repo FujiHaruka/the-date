@@ -187,6 +187,35 @@
                     }
                 },
                 {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "hours",
                     "access": "",
                     "virtual": false,
@@ -311,6 +340,35 @@
                     "examples": [],
                     "returns": {
                         "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
                         "description": ""
                     }
                 }
@@ -459,6 +517,35 @@
                     }
                 },
                 {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "hours",
                     "access": "",
                     "virtual": false,
@@ -583,6 +670,35 @@
                     "examples": [],
                     "returns": {
                         "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
                         "description": ""
                     }
                 }
