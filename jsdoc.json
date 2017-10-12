@@ -234,7 +234,15 @@
                             "type": "string",
                             "description": "Moment date format",
                             "default": null,
-                            "optional": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
                             "nullable": ""
                         }
                     ],
@@ -420,7 +428,15 @@
                             "type": "string",
                             "description": "Moment date format",
                             "default": null,
-                            "optional": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
                             "nullable": ""
                         }
                     ],
@@ -622,7 +638,15 @@
                             "type": "string",
                             "description": "Moment date format",
                             "default": null,
-                            "optional": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
                             "nullable": ""
                         }
                     ],
@@ -808,7 +832,15 @@
                             "type": "string",
                             "description": "Moment date format",
                             "default": null,
-                            "optional": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
                             "nullable": ""
                         }
                     ],
