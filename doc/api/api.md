@@ -1,4 +1,4 @@
-# the-date@1.0.2
+# the-date@1.0.3
 
 Date utility for the-framework
 
@@ -11,11 +11,13 @@ Date utility for the-framework
   + [date.now()](#the-date-classes-the-date-now)
   + [date.dateAfter(msecs, options)](#the-date-classes-the-date-dateAfter)
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
+  + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
   + [date.hours(n)](#the-date-classes-the-date-hours)
   + [date.days(n)](#the-date-classes-the-date-days)
   + [date.now()](#the-date-classes-the-date-now)
   + [date.dateAfter(msecs, options)](#the-date-classes-the-date-dateAfter)
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
+  + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
 
 ## Functions
 
@@ -102,6 +104,18 @@ Date after
 | options.from | Date | Base date |
 
 
+<a class='md-heading-link' name="the-date-classes-the-date-daysBetween" ></a>
+
+### date.daysBetween(date1, date2) -> `number`
+
+Get dates between
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| date1 |  |  |
+| date2 |  |  |
+
+
 <a class='md-heading-link' name="the-date-classes-the-date-hours" ></a>
 
 ### date.hours(n) -> `number`
@@ -154,6 +168,18 @@ Date after
 | msecs |  | Milliseconds to after |
 | options | Object | Optional settings |
 | options.from | Date | Base date |
+
+
+<a class='md-heading-link' name="the-date-classes-the-date-daysBetween" ></a>
+
+### date.daysBetween(date1, date2) -> `number`
+
+Get dates between
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| date1 |  |  |
+| date2 |  |  |
 
 
 

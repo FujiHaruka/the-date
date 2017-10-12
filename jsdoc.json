@@ -194,7 +194,7 @@
                     "parameters": [
                         {
                             "name": "date1",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -202,7 +202,7 @@
                         },
                         {
                             "name": "date2",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -212,6 +212,35 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": null,
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 },
@@ -351,7 +380,7 @@
                     "parameters": [
                         {
                             "name": "date1",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -359,7 +388,7 @@
                         },
                         {
                             "name": "date2",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -369,6 +398,35 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": null,
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 }
@@ -524,7 +582,7 @@
                     "parameters": [
                         {
                             "name": "date1",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -532,7 +590,7 @@
                         },
                         {
                             "name": "date2",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -542,6 +600,35 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": null,
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 },
@@ -681,7 +768,7 @@
                     "parameters": [
                         {
                             "name": "date1",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -689,7 +776,7 @@
                         },
                         {
                             "name": "date2",
-                            "type": "",
+                            "type": "Date",
                             "description": "",
                             "default": "",
                             "optional": "",
@@ -699,6 +786,35 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": null,
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 }
