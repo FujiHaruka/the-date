@@ -1,4 +1,4 @@
-# the-date@1.1.0
+# the-date@1.1.1
 
 Date utility for the-framework
 
@@ -12,14 +12,14 @@ Date utility for the-framework
   + [date.dateAfter(msecs, options)](#the-date-classes-the-date-dateAfter)
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
   + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
-  + [date.formatDate(date, format)](#the-date-classes-the-date-formatDate)
+  + [date.formatDate(date, format, options)](#the-date-classes-the-date-formatDate)
   + [date.hours(n)](#the-date-classes-the-date-hours)
   + [date.days(n)](#the-date-classes-the-date-days)
   + [date.now()](#the-date-classes-the-date-now)
   + [date.dateAfter(msecs, options)](#the-date-classes-the-date-dateAfter)
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
   + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
-  + [date.formatDate(date, format)](#the-date-classes-the-date-formatDate)
+  + [date.formatDate(date, format, options)](#the-date-classes-the-date-formatDate)
 
 ## Functions
 
@@ -120,7 +120,7 @@ Get dates between
 
 <a class='md-heading-link' name="the-date-classes-the-date-formatDate" ></a>
 
-### date.formatDate(date, format) -> `string`
+### date.formatDate(date, format, options) -> `string`
 
 Format date into string
 
@@ -128,6 +128,7 @@ Format date into string
 | ----- | --- | -------- |
 | date | Date |  |
 | format | string | Moment date format |
+| options | Object | Optional settings |
 
 
 <a class='md-heading-link' name="the-date-classes-the-date-hours" ></a>
@@ -198,7 +199,7 @@ Get dates between
 
 <a class='md-heading-link' name="the-date-classes-the-date-formatDate" ></a>
 
-### date.formatDate(date, format) -> `string`
+### date.formatDate(date, format, options) -> `string`
 
 Format date into string
 
@@ -206,6 +207,7 @@ Format date into string
 | ----- | --- | -------- |
 | date | Date |  |
 | format | string | Moment date format |
+| options | Object | Optional settings |
 
 
 

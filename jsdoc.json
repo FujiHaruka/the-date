@@ -233,8 +233,37 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": null,
+                            "default": "lll",
                             "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
                             "nullable": ""
                         },
                         {
@@ -427,8 +456,37 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": null,
+                            "default": "lll",
                             "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
                             "nullable": ""
                         },
                         {
@@ -637,8 +695,37 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": null,
+                            "default": "lll",
                             "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
                             "nullable": ""
                         },
                         {
@@ -831,8 +918,37 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": null,
+                            "default": "lll",
                             "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
                             "nullable": ""
                         },
                         {
