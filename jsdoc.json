@@ -233,7 +233,7 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": "lll",
+                            "default": "llll",
                             "optional": true,
                             "nullable": ""
                         },
@@ -456,7 +456,7 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": "lll",
+                            "default": "llll",
                             "optional": true,
                             "nullable": ""
                         },
@@ -695,7 +695,7 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": "lll",
+                            "default": "llll",
                             "optional": true,
                             "nullable": ""
                         },
@@ -918,7 +918,7 @@
                             "name": "format",
                             "type": "string",
                             "description": "Moment date format",
-                            "default": "lll",
+                            "default": "llll",
                             "optional": true,
                             "nullable": ""
                         },

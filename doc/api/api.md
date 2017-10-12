@@ -1,4 +1,4 @@
-# the-date@1.1.1
+# the-date@1.1.2
 
 Date utility for the-framework
 
@@ -13,6 +13,7 @@ Date utility for the-framework
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
   + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
   + [date.formatDate(date, format, options)](#the-date-classes-the-date-formatDate)
+  + [date.dateStringFromNow(date, options)](#the-date-classes-the-date-dateStringFromNow)
   + [date.hours(n)](#the-date-classes-the-date-hours)
   + [date.days(n)](#the-date-classes-the-date-days)
   + [date.now()](#the-date-classes-the-date-now)
@@ -20,6 +21,7 @@ Date utility for the-framework
   + [date.dateBefore(msecs, options)](#the-date-classes-the-date-dateBefore)
   + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
   + [date.formatDate(date, format, options)](#the-date-classes-the-date-formatDate)
+  + [date.dateStringFromNow(date, options)](#the-date-classes-the-date-dateStringFromNow)
 
 ## Functions
 
@@ -131,6 +133,18 @@ Format date into string
 | options | Object | Optional settings |
 
 
+<a class='md-heading-link' name="the-date-classes-the-date-dateStringFromNow" ></a>
+
+### date.dateStringFromNow(date, options) -> `string`
+
+Date string from now
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| date | Date |  |
+| options | Object | Optional settings |
+
+
 <a class='md-heading-link' name="the-date-classes-the-date-hours" ></a>
 
 ### date.hours(n) -> `number`
@@ -207,6 +221,18 @@ Format date into string
 | ----- | --- | -------- |
 | date | Date |  |
 | format | string | Moment date format |
+| options | Object | Optional settings |
+
+
+<a class='md-heading-link' name="the-date-classes-the-date-dateStringFromNow" ></a>
+
+### date.dateStringFromNow(date, options) -> `string`
+
+Date string from now
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| date | Date |  |
 | options | Object | Optional settings |
 
 
