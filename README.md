@@ -98,7 +98,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-date@1.1.2](./doc/api/api.md)
++ [the-date@1.1.3](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-date-function-create)
   + [TheDate](./doc/api/api.md#the-date-class)
 
