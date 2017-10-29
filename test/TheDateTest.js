@@ -17,7 +17,13 @@ describe('the-date', () => {
   it('Do test', () => {
     ok(TheDate)
 
-    const {dateAfter, daysBetween, formatDate} = new TheDate()
+    const {
+      dateAfter,
+      daysBetween,
+      formatDate,
+      hours,
+      days
+    } = new TheDate()
     equal(
       dateAfter(24 * 60 * 60 * 1000, {from: new Date('2016/12/12')}).getTime(),
       new Date('2016/12/13').getTime()
@@ -31,6 +37,11 @@ describe('the-date', () => {
     equal(
       formatDate(new Date('2016/10/10'), 'lll', {lang: 'ja'}),
       '2016年10月10日 00:00'
+    )
+
+    equal(
+      hours(3),
+      3 * 60 * 60 * 1000
     )
   })
 })
