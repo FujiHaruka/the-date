@@ -50,6 +50,8 @@ describe('the-date', () => {
     )
 
     ok(today())
+    // console.log(today())
+    // console.log(today('Asia/Tokyo'))
   })
 })
 
