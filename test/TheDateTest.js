@@ -21,10 +21,14 @@ describe('the-date', () => {
       dateAfter,
       daysBetween,
       formatDate,
+      minutes,
       hours,
       days,
       today
     } = new TheDate()
+
+    equal(minutes(3), 3 * 60 * 1000)
+
     equal(
       dateAfter(24 * 60 * 60 * 1000, {from: new Date('2016/12/12')}).getTime(),
       new Date('2016/12/13').getTime()
