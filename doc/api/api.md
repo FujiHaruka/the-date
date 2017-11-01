@@ -1,4 +1,4 @@
-# the-date@1.2.1
+# the-date@1.3.0
 
 Date utility for the-framework
 
@@ -6,6 +6,7 @@ Date utility for the-framework
   + [create(args)](#the-date-function-create)
 + [`TheDate`](#the-date-classes) Class
   + [new TheDate()](#the-date-classes-the-date-constructor)
+  + [date.minutes(n)](#the-date-classes-the-date-minutes)
   + [date.hours(n)](#the-date-classes-the-date-hours)
   + [date.days(n)](#the-date-classes-the-date-days)
   + [date.now()](#the-date-classes-the-date-now)
@@ -14,6 +15,7 @@ Date utility for the-framework
   + [date.daysBetween(date1, date2)](#the-date-classes-the-date-daysBetween)
   + [date.formatDate(date, format, options)](#the-date-classes-the-date-formatDate)
   + [date.dateStringFromNow(date, options)](#the-date-classes-the-date-dateStringFromNow)
+  + [date.minutes(n)](#the-date-classes-the-date-minutes)
   + [date.hours(n)](#the-date-classes-the-date-hours)
   + [date.days(n)](#the-date-classes-the-date-days)
   + [date.now()](#the-date-classes-the-date-now)
@@ -52,6 +54,17 @@ Create a TheDate instance
 
 Constructor of TheDate class
 
+
+
+<a class='md-heading-link' name="the-date-classes-the-date-minutes" ></a>
+
+### date.minutes(n) -> `number`
+
+Get minutes in milliseconds
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| n | number | Hours |
 
 
 <a class='md-heading-link' name="the-date-classes-the-date-hours" ></a>
@@ -143,6 +156,17 @@ Date string from now
 | ----- | --- | -------- |
 | date | Date |  |
 | options | Object | Optional settings |
+
+
+<a class='md-heading-link' name="the-date-classes-the-date-minutes" ></a>
+
+### date.minutes(n) -> `number`
+
+Get minutes in milliseconds
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| n | number | Hours |
 
 
 <a class='md-heading-link' name="the-date-classes-the-date-hours" ></a>
