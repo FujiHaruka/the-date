@@ -44,13 +44,15 @@ describe('the-date', () => {
       '2016年10月10日 00:00'
     )
 
-    console.log('America/Thule',
-      formatDate(new Date('2016/10/10'), 'lll', {
-        lang: 'ja',
-        timezone: 'America/Thule'
-      }),
-      '2016年10月10日 00:00'
-    )
+    for (const timezone of ['America/Thule', 'Asia/Tokyo']) {
+      console.log(timezone,
+        formatDate(new Date('2016/10/10'), 'lll', {
+          lang: 'ja',
+          timezone
+        }),
+        '2016年10月10日 00:00'
+      )
+    }
 
     equal(
       hours(3),
