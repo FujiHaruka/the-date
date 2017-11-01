@@ -59,6 +59,27 @@
             },
             "functions": [
                 {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "hours",
                     "access": "",
                     "virtual": false,
@@ -278,6 +299,27 @@
                     "examples": [],
                     "returns": {
                         "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
                         "description": ""
                     }
                 },
@@ -521,6 +563,27 @@
             },
             "functions": [
                 {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
                     "name": "hours",
                     "access": "",
                     "virtual": false,
@@ -740,6 +803,27 @@
                     "examples": [],
                     "returns": {
                         "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
                         "description": ""
                     }
                 },
