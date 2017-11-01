@@ -1,4 +1,4 @@
-# the-date@1.1.5
+# the-date@1.2.0
 
 Date utility for the-framework
 

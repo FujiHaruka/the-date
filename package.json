@@ -1,6 +1,6 @@
 {
   "name": "the-date",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Date utility for the-framework",
   "main": "lib",
   "browser": "shim",
