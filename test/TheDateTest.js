@@ -22,7 +22,8 @@ describe('the-date', () => {
       daysBetween,
       formatDate,
       hours,
-      days
+      days,
+      today
     } = new TheDate()
     equal(
       dateAfter(24 * 60 * 60 * 1000, {from: new Date('2016/12/12')}).getTime(),
@@ -43,6 +44,8 @@ describe('the-date', () => {
       hours(3),
       3 * 60 * 60 * 1000
     )
+
+    ok(today())
   })
 })
 
