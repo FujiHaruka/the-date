@@ -24,7 +24,8 @@ describe('the-date', () => {
       minutes,
       hours,
       days,
-      today
+      today,
+      hourStrippedDate
     } = new TheDate()
 
     equal(minutes(3), 3 * 60 * 1000)
@@ -62,6 +63,11 @@ describe('the-date', () => {
     ok(today())
     // console.log(today())
     // console.log(today('Asia/Tokyo'))
+
+    equal(
+      Number(hourStrippedDate(new Date('2017/07/07 11:12:10'))),
+      Number(new Date('2017/07/07'))
+    )
   })
 })
 
