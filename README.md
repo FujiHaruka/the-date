@@ -89,6 +89,8 @@ tryExample().catch((err) => console.error(err))
 ```
 
 
++ [List of Timezones](./doc/helps/TimeZones.md)
+
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" Start -->
@@ -98,7 +100,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-date@1.3.4](./doc/api/api.md)
++ [the-date@1.3.5](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-date-function-create)
   + [TheDate](./doc/api/api.md#the-date-class)
 
