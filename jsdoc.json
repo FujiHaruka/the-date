@@ -59,15 +59,118 @@
             },
             "functions": [
                 {
-                    "name": "minutes",
+                    "name": "dateAfter",
                     "access": "",
                     "virtual": false,
-                    "description": "Get minutes in milliseconds",
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "now()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "now()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
                     "parameters": [
                         {
                             "name": "n",
                             "type": "number",
-                            "description": "Hours",
+                            "description": "Days",
                             "default": 1,
                             "optional": true,
                             "nullable": ""
@@ -76,6 +179,72 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": "llll",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 },
@@ -101,15 +270,15 @@
                     }
                 },
                 {
-                    "name": "days",
+                    "name": "minutes",
                     "access": "",
                     "virtual": false,
-                    "description": "Get days in milliseconds",
+                    "description": "Get minutes in milliseconds",
                     "parameters": [
                         {
                             "name": "n",
                             "type": "number",
-                            "description": "Days",
+                            "description": "Hours",
                             "default": 1,
                             "optional": true,
                             "nullable": ""
@@ -208,72 +377,6 @@
                     }
                 },
                 {
-                    "name": "daysBetween",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get dates between",
-                    "parameters": [
-                        {
-                            "name": "date1",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "date2",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "formatDate",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Format date into string",
-                    "parameters": [
-                        {
-                            "name": "date",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "format",
-                            "type": "string",
-                            "description": "Moment date format",
-                            "default": "llll",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "{}",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "string",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "dateStringFromNow",
                     "access": "",
                     "virtual": false,
@@ -299,48 +402,6 @@
                     "examples": [],
                     "returns": {
                         "type": "string",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "minutes",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get minutes in milliseconds",
-                    "parameters": [
-                        {
-                            "name": "n",
-                            "type": "number",
-                            "description": "Hours",
-                            "default": 1,
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "hours",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get hours in milliseconds",
-                    "parameters": [
-                        {
-                            "name": "n",
-                            "type": "number",
-                            "description": "Hours",
-                            "default": 1,
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
                         "description": ""
                     }
                 },
@@ -366,92 +427,6 @@
                     }
                 },
                 {
-                    "name": "now",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Current date",
-                    "parameters": [],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "dateAfter",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Date after",
-                    "parameters": [
-                        {
-                            "name": "msecs",
-                            "type": "",
-                            "description": "Milliseconds to after",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options.from",
-                            "type": "Date",
-                            "description": "Base date",
-                            "default": "now()",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "dateBefore",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Date after",
-                    "parameters": [
-                        {
-                            "name": "msecs",
-                            "type": "",
-                            "description": "Milliseconds to after",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options.from",
-                            "type": "Date",
-                            "description": "Base date",
-                            "default": "now()",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "daysBetween",
                     "access": "",
                     "virtual": false,
@@ -518,31 +493,56 @@
                     }
                 },
                 {
-                    "name": "dateStringFromNow",
+                    "name": "hours",
                     "access": "",
                     "virtual": false,
-                    "description": "Date string from now",
+                    "description": "Get hours in milliseconds",
                     "parameters": [
                         {
-                            "name": "date",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "{}",
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
                             "optional": true,
                             "nullable": ""
                         }
                     ],
                     "examples": [],
                     "returns": {
-                        "type": "string",
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
                         "description": ""
                     }
                 }
@@ -563,15 +563,118 @@
             },
             "functions": [
                 {
-                    "name": "minutes",
+                    "name": "dateAfter",
                     "access": "",
                     "virtual": false,
-                    "description": "Get minutes in milliseconds",
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "now()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateBefore",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date after",
+                    "parameters": [
+                        {
+                            "name": "msecs",
+                            "type": "",
+                            "description": "Milliseconds to after",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options.from",
+                            "type": "Date",
+                            "description": "Base date",
+                            "default": "now()",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "dateStringFromNow",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Date string from now",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "days",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get days in milliseconds",
                     "parameters": [
                         {
                             "name": "n",
                             "type": "number",
-                            "description": "Hours",
+                            "description": "Days",
                             "default": 1,
                             "optional": true,
                             "nullable": ""
@@ -580,6 +683,72 @@
                     "examples": [],
                     "returns": {
                         "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "daysBetween",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get dates between",
+                    "parameters": [
+                        {
+                            "name": "date1",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "date2",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "formatDate",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Format date into string",
+                    "parameters": [
+                        {
+                            "name": "date",
+                            "type": "Date",
+                            "description": "",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "format",
+                            "type": "string",
+                            "description": "Moment date format",
+                            "default": "llll",
+                            "optional": true,
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "string",
                         "description": ""
                     }
                 },
@@ -605,15 +774,15 @@
                     }
                 },
                 {
-                    "name": "days",
+                    "name": "minutes",
                     "access": "",
                     "virtual": false,
-                    "description": "Get days in milliseconds",
+                    "description": "Get minutes in milliseconds",
                     "parameters": [
                         {
                             "name": "n",
                             "type": "number",
-                            "description": "Days",
+                            "description": "Hours",
                             "default": 1,
                             "optional": true,
                             "nullable": ""
@@ -712,72 +881,6 @@
                     }
                 },
                 {
-                    "name": "daysBetween",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get dates between",
-                    "parameters": [
-                        {
-                            "name": "date1",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "date2",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "formatDate",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Format date into string",
-                    "parameters": [
-                        {
-                            "name": "date",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "format",
-                            "type": "string",
-                            "description": "Moment date format",
-                            "default": "llll",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "{}",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "string",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "dateStringFromNow",
                     "access": "",
                     "virtual": false,
@@ -803,48 +906,6 @@
                     "examples": [],
                     "returns": {
                         "type": "string",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "minutes",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get minutes in milliseconds",
-                    "parameters": [
-                        {
-                            "name": "n",
-                            "type": "number",
-                            "description": "Hours",
-                            "default": 1,
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "hours",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Get hours in milliseconds",
-                    "parameters": [
-                        {
-                            "name": "n",
-                            "type": "number",
-                            "description": "Hours",
-                            "default": 1,
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "number",
                         "description": ""
                     }
                 },
@@ -870,92 +931,6 @@
                     }
                 },
                 {
-                    "name": "now",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Current date",
-                    "parameters": [],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "dateAfter",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Date after",
-                    "parameters": [
-                        {
-                            "name": "msecs",
-                            "type": "",
-                            "description": "Milliseconds to after",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options.from",
-                            "type": "Date",
-                            "description": "Base date",
-                            "default": "now()",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
-                    "name": "dateBefore",
-                    "access": "",
-                    "virtual": false,
-                    "description": "Date after",
-                    "parameters": [
-                        {
-                            "name": "msecs",
-                            "type": "",
-                            "description": "Milliseconds to after",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "",
-                            "optional": true,
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options.from",
-                            "type": "Date",
-                            "description": "Base date",
-                            "default": "now()",
-                            "optional": true,
-                            "nullable": ""
-                        }
-                    ],
-                    "examples": [],
-                    "returns": {
-                        "type": "Date",
-                        "description": ""
-                    }
-                },
-                {
                     "name": "daysBetween",
                     "access": "",
                     "virtual": false,
@@ -1022,31 +997,56 @@
                     }
                 },
                 {
-                    "name": "dateStringFromNow",
+                    "name": "hours",
                     "access": "",
                     "virtual": false,
-                    "description": "Date string from now",
+                    "description": "Get hours in milliseconds",
                     "parameters": [
                         {
-                            "name": "date",
-                            "type": "Date",
-                            "description": "",
-                            "default": "",
-                            "optional": "",
-                            "nullable": ""
-                        },
-                        {
-                            "name": "options",
-                            "type": "Object",
-                            "description": "Optional settings",
-                            "default": "{}",
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
                             "optional": true,
                             "nullable": ""
                         }
                     ],
                     "examples": [],
                     "returns": {
-                        "type": "string",
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "minutes",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Get minutes in milliseconds",
+                    "parameters": [
+                        {
+                            "name": "n",
+                            "type": "number",
+                            "description": "Hours",
+                            "default": 1,
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "number",
+                        "description": ""
+                    }
+                },
+                {
+                    "name": "now",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Current date",
+                    "parameters": [],
+                    "examples": [],
+                    "returns": {
+                        "type": "Date",
                         "description": ""
                     }
                 }

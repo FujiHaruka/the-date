@@ -1,9 +1,41 @@
 {
   "name": "the-date",
-  "version": "1.4.1",
   "description": "Date utility for the-framework",
-  "main": "lib",
+  "version": "1.4.1",
+  "author": {
+    "name": "okunishinishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "undefined"
+  },
   "browser": "shim",
+  "bugs": {
+    "url": "https://github.com/the-labo/the-date/issues"
+  },
+  "dependencies": {
+    "abind": "^1.0.3",
+    "moment": "^2.21.0",
+    "moment-timezone": "^0.5.14"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "the-script-build": "^3.1.4",
+    "the-script-jsdoc": "^2.0.1",
+    "the-script-release": "^1.0.6",
+    "the-script-share": "^1.0.5",
+    "the-script-update": "^1.0.0",
+    "the-templates": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  },
+  "homepage": "https://github.com/the-labo/the-date#readme",
+  "keywords": [
+    "the"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": "the-labo/the-date",
   "scripts": {
     "build": "the-script-build",
     "doc": "the-script-jsdoc",
@@ -13,37 +45,5 @@
     "test": "mocha",
     "update": "the-script-update",
     "watch": "the-script-build -w"
-  },
-  "repository": "the-labo/the-date",
-  "keywords": [
-    "the"
-  ],
-  "author": {
-    "name": "okunishinishi",
-    "email": "okunishinishi@gmail.com",
-    "url": "undefined"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/the-labo/the-date/issues"
-  },
-  "homepage": "https://github.com/the-labo/the-date#readme",
-  "dependencies": {
-    "abind": "^1.0.3",
-    "moment": "^2.19.1",
-    "moment-timezone": "^0.5.13"
-  },
-  "devDependencies": {
-    "mocha": "^4.0.1",
-    "the-script-build": "^1.3.4",
-    "the-script-jsdoc": "^2.0.0",
-    "the-script-release": "^1.0.6",
-    "the-script-share": "^1.0.5",
-    "the-script-update": "^1.0.0",
-    "the-templates": "^2.0.1"
-  },
-  "engines": {
-    "node": ">=6",
-    "npm": ">=4"
   }
 }
